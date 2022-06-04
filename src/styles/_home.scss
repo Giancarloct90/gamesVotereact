@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+  padding-bottom: 5rem;
+  overflow: hidden;
+}
+
+.homeTitle {
+  text-align: center;
+  color: #d94e41;
+  font-size: 3rem;
+  padding: 3rem 3rem;
+  font-weight: 900;
+  // width: 100%;
+}

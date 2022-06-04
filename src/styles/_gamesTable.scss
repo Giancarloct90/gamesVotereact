@@ -1,0 +1,89 @@
+.gameTables {
+  width: 70%;
+  background-color: #fff8f5;
+  border-radius: 1rem;
+  min-height: 40rem;
+  padding: 2rem 2rem;
+  position: relative;
+}
+
+.inputSearch {
+  width: 100%;
+  // text-align: center;
+  padding: 2rem;
+  // align-items: center;
+  justify-content: center;
+  display: flex;
+  input {
+    width: 50%;
+    font-size: 1.7rem;
+    padding: 0.3rem 1rem;
+  }
+
+  .btnSearch,
+  input {
+    height: 4rem;
+  }
+
+  .btnSearch {
+    width: 5rem;
+    cursor: pointer;
+    background-color: #4183d9;
+    border: none;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+  }
+}
+.divTable {
+  width: 100%;
+}
+.tableGame {
+  width: 100%;
+  color: black;
+  font-size: 1.7rem;
+
+  thead th:first-child {
+    text-align: left;
+  }
+
+  th {
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: #406973;
+    padding: 0.7rem;
+    color: white;
+  }
+  td {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border-bottom: 0.2rem solid #406973;
+  }
+
+  tbody td:last-child {
+    text-align: center;
+  }
+  tr {
+    &:hover {
+      background-color: rgb(219, 219, 219);
+    }
+  }
+}
+
+.h1Error {
+  color: red;
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+}
+
+.imgLoading {
+  position: absolute;
+  top: 15%;
+  right: 40%;
+  img {
+    padding-top: 5rem;
+    width: 13rem;
+  }
+}

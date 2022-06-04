@@ -1,0 +1,19 @@
+
+.titleVote{
+    text-align: center;
+    margin: 2rem 0rem;
+    font-size: 4rem;
+    color: #d94e41;
+    text-shadow: 0rem 0.4rem #b4b4b4;
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divCardsGamesVote{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 3rem;
+    width: 100%;
+}
+
