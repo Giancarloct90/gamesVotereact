@@ -1,0 +1,8 @@
+@media screen and (max-width: 744px){
+    .divCardsGamesVote{
+        
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        // align-items: center;
+    }
+}

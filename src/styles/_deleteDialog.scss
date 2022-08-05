@@ -1,17 +1,14 @@
 .fullScreenDelete{
-    position: absolute;
+    position: fixed;
     bottom: 0rem;
     left: 0rem;
     top: 0rem;
-    
-    height: 100vh;
+    right: 0rem;
+    height: 100%;
     width: 99vw;
-    overflow-x: hidden;
-
     background-color: rgba(0,0,0,0.3);
-    // background-color: white;
-    z-index: 1;
-   animation: fadein 0.4s ease-in forwards;
+    // z-index: 1;
+    animation: fadein 0.4s ease-in backwards;
 }
 
 @keyframes fadein {

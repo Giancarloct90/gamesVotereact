@@ -1,0 +1,32 @@
+@media screen and (max-width: 744px){
+  html{
+      font-size: 42%;
+  }
+
+  .dialogDe{
+ 
+    width: 85%;
+  }
+
+  .navbarss{
+    // display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2rem 0rem;
+  }
+
+  .logo{
+    // background-color: black;
+    text-align: center;
+  }
+  .navLinks{
+
+    // background-color: blkueviolet;
+    // width: 20rem;
+    // flex: 1 1 0rem;
+
+  }
+
+
+}

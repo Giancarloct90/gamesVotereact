@@ -253,16 +253,15 @@ body {
 }
 
 .fullScreenDelete {
-  position: absolute;
+  position: fixed;
   bottom: 0rem;
   left: 0rem;
   top: 0rem;
-  height: 100vh;
+  right: 0rem;
+  height: 100%;
   width: 99vw;
-  overflow-x: hidden;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
-  animation: fadein 0.4s ease-in forwards;
+  animation: fadein 0.4s ease-in backwards;
 }
 
 @keyframes fadein {
@@ -413,6 +412,47 @@ body {
   font-weight: 900;
   color: white;
   cursor: pointer;
+}
+
+@media screen and (max-width: 744px) {
+  html {
+    font-size: 42%;
+  }
+
+  .dialogDe {
+    width: 85%;
+  }
+
+  .navbarss {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2rem 0rem;
+  }
+
+  .logo {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 744px) {
+  .home {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .gameForm {
+    width: 100%;
+  }
+
+  .gameTables {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 744px) {
+  .divCardsGamesVote {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

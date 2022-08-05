@@ -1,4 +1,12 @@
-.CardGameVote{
+.divCardsGamesVote{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 3rem;
+    width: 100%;
+}
+
+ 
+ .CardGameVote{
     width: 20rem;
     background-color: white;
     height: auto;

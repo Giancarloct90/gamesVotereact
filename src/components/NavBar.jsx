@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <div className="header">
-      <nav>
+      <nav className="navbarss">
         <Link className="logo" to={"/"}>
           Game Sockets
         </Link>
@@ -39,7 +39,7 @@ const NavBar = () => {
             RESULT
           </NavLink>
           <div
-            className=""
+            className=".statusServer"
             style={{
               width: "1rem",
               height: "1rem",

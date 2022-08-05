@@ -1,4 +1,6 @@
-export const URL_API = "http://localhost:4000/";
+export const URL_API = "https://games-socket.herokuapp.com/";
+// export const URL_API = "http://10.29.37.100:4000/";
+// export const URL_API = "http://localhost:4000/";
 
 export const getData = async () => {
   try {

@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import { handleDeleteGame1 } from "../Data/dataEntity";
 
 const DeleteDialog = ({
@@ -20,7 +21,7 @@ const DeleteDialog = ({
     setDeleteDialog(false);
     console.log(res);
   };
-  return (
+  return ReactDOM.createPortal(
     <>
       {deleteDialog && (
         <div className="fullScreenDelete">
@@ -80,7 +81,8 @@ const DeleteDialog = ({
           </div>
         </>
       )}
-    </>
+    </>,
+    document.getElementById("portal")
   );
 };
 
